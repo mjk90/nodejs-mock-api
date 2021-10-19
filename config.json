@@ -1,0 +1,15 @@
+{
+  "port": 8080,
+  "apis": [
+    {
+      "route": "/api/test",
+      "type": "GET",
+      "returns": { "message": "hello!" }
+    },
+    {
+      "route": "/api/test_2",
+      "type": "GET",
+      "returns": "./data/data.json"
+    }
+  ]
+}
